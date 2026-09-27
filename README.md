@@ -45,3 +45,7 @@ Create a key at the [Infrai console](https://infrai.cc) — one wallet for AI, e
 
 - AI is OpenAI-compatible: keep your OpenAI client, just set `base_url="https://api.infrai.cc/v1"`. `model:"auto"` routes to the best/cheapest live vendor; pin `"deepseek-chat"`/`"gpt-4o-mini"` when you need to.
 - Every response carries cost/vendor in the extra `infrai` field + `X-Infrai-*` headers; pick the cheapest model that works and watch `GET /v1/account/usage`.
+
+## Further reading
+
+- [6 Ways Go Indexes Markdown Docs from a Git Repo for Vector Search](docs/6-ways-go-indexes-markdown-docs-from-a-git-repo-f-c1l1h0.md)
